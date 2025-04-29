@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",         // This tells JavaScript where to start resolving paths
+      "paths": {
+        "@/*": ["src/*"]      // This sets up the alias '@' to point to the 'src' folder
+      }
+    },
+    "include": ["src"]       // This tells JavaScript to include all files inside the 'src' folder
+}
+  
